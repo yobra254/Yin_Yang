@@ -12,8 +12,7 @@ void main() {
         backgroundColor: Colors.brown,
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2VvDNHNJaqNjFkPp1Bym61GMCToWqA_438w&usqp=CAU'),
+            image: AssetImage('images/images.png'),
           ),
         ),
       ),
